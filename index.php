@@ -19,6 +19,7 @@ if(isset($_POST["submit"])) {
     $uploadOk = 1;
   } else {
     echo "File is not an image.";
+    echo 'br';
     $uploadOk = 0;
   }
 }
