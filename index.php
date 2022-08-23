@@ -1,5 +1,5 @@
 <?php
-// Function to create a random target directory
+// Function that creates a random target directory
 function makeRandomDirectory() {
 	$randomnumber = rand();
 	$DIR = mkdir($randomnumber);
